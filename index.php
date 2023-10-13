@@ -50,7 +50,7 @@ echo '
     <div id="todo">
       <div class="container">
         <h1 id="catalogo">
-          Subir Imagen
+          Subir Imagen2XD
         </h1>
         <div class="container" >
           <div class="row">
