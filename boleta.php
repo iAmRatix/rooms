@@ -21,9 +21,9 @@ if (isset($_POST['subir'])) {
                   if( move_uploaded_file ( $temp, $ruta_nuevo_destino ) ) {
                   
 
-                    echo $tipo;
-                    echo $nuevonombre;
-                    echo $nuevonombre.'.'.$tipo;
+                    echo ''.$tipo.'';
+                    echo ''.$nuevonombre.'';
+                    echo ''.$nuevonombre.'.'.$tipo.'';
                     
                   }else{
                     
