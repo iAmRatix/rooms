@@ -13,7 +13,7 @@ if (isset($_POST['subir'])) {
 
 
 
-        $ruta_nuevo_destino = $_ENV['RAILWAY_VOLUME_MOUNT_PATH'].'/' . $_FILES['archivo']['name'];
+        $ruta_nuevo_destino = $_ENV['RAILWAY_VOLUME_MOUNT_PATH'].'/' . $nuevonombre.'.png';
         $extensiones = array(0=>'image/jpg',1=>'image/jpeg',2=>'image/png');
         if ( in_array($_FILES['archivo']['type'], $extensiones) ) {
              $max_tamanyo = 1024 * 1024 * 8;
