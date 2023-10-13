@@ -24,6 +24,8 @@ if (isset($_POST['subir'])) {
                     echo ''.$tipo.'';
                     echo ''.$nuevonombre.'';
                     echo ''.$nuevonombre.'.'.$tipo.'';
+                    echo ''.$_FILES['archivo']['name'].'';
+                    
                     
                   }else{
                     
